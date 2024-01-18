@@ -1,0 +1,71 @@
+body {
+  text-align: center;
+  padding: 20px;
+}
+
+header {
+  background-color: blue;
+  padding: 20px;
+  color: white;
+}
+
+header span {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+}
+
+.container-luas,
+.container-keliling {
+  flex: 50%;
+}
+
+#perkalian,
+#keliling {
+  width: 75%;
+  padding: 20px;
+}
+
+.rumus {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rumus-l,
+.rumus-k {
+  text-align: left;
+  margin-top: 50px;
+}
+
+.singkatan {
+  display: flex;
+  gap: 20px;
+}
+
+.btn-luas {
+  align-item: center;
+  text-align: center;
+}
+
+.btn-hitung,
+.btn-reset {
+  margin: 20px 30px;
+  padding: 10px 20px;
+  background-color: blue;
+  border-style: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+#luas {
+  background-color: yellow;
+}
+
+.para {
+  font-size: 20px;
+  color: black;
+}
